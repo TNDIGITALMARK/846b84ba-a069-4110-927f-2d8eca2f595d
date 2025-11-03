@@ -61,19 +61,19 @@ export default function LocationPage() {
                   <p className="text-lg text-secondary">
                     <strong>Phone:</strong>{' '}
                     <a
-                      href="tel:+15551234567"
+                      href="tel:+918337958044"
                       className="text-[hsl(var(--color-primary))] hover:underline"
                     >
-                      (555) 123-4567
+                      +91 833 795 8044
                     </a>
                   </p>
                   <p className="text-lg text-secondary">
                     <strong>Email:</strong>{' '}
                     <a
-                      href="mailto:info@tasteofodiaha.com"
-                      className="text-[hsl(var(--color-primary))] hover:underline"
+                      href="mailto:Tasteofodisha.baliapal@gmail.com"
+                      className="text-[hsl(var(--color-primary))] hover:underline break-all"
                     >
-                      info@tasteofodiaha.com
+                      Tasteofodisha.baliapal@gmail.com
                     </a>
                   </p>
                 </div>

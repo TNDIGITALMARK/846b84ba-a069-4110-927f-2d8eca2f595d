@@ -33,12 +33,16 @@ export default function Footer() {
 
             <div className="flex items-center gap-3">
               <Phone className="w-5 h-5 flex-shrink-0" />
-              <p className="text-sm">(555) 123-4567</p>
+              <a href="tel:+918337958044" className="text-sm hover:underline">
+                +91 833 795 8044
+              </a>
             </div>
 
             <div className="flex items-center gap-3">
               <Mail className="w-5 h-5 flex-shrink-0" />
-              <p className="text-sm">info@tasteofodiaha.com</p>
+              <a href="mailto:Tasteofodisha.baliapal@gmail.com" className="text-sm hover:underline break-all">
+                Tasteofodisha.baliapal@gmail.com
+              </a>
             </div>
 
             <p className="text-sm mt-2">

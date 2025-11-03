@@ -151,11 +151,11 @@ export default function DealsPage() {
             </div>
 
             <div className="flex flex-wrap gap-4 justify-center">
-              <a href="tel:+15551234567" className="btn-primary">
+              <a href="tel:+918337958044" className="btn-primary">
                 CALL FOR CATERING
               </a>
               <a
-                href="mailto:info@rootsrestaurant.com"
+                href="mailto:Tasteofodisha.baliapal@gmail.com"
                 className="btn-primary bg-[hsl(var(--color-secondary))]"
               >
                 EMAIL US

@@ -263,10 +263,10 @@ export default function ReservationsPage() {
               For parties larger than 10 people or catering inquiries, please
               call us directly at{' '}
               <a
-                href="tel:+15551234567"
+                href="tel:+918337958044"
                 className="text-[hsl(var(--color-primary))] hover:underline"
               >
-                (555) 123-4567
+                +91 833 795 8044
               </a>
             </p>
           </div>
