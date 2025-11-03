@@ -26,8 +26,8 @@ export default function Footer() {
             <div className="flex items-start gap-3">
               <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
               <div className="text-sm">
-                <p>127 West Room, Floor 5</p>
-                <p>Abc Enclave 245019</p>
+                <p>Baliapal, Baleshwar</p>
+                <p>Odisha 756026</p>
               </div>
             </div>
 

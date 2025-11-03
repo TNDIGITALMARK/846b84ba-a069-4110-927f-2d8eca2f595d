@@ -29,11 +29,9 @@ export default function LocationPage() {
                   Address
                 </h2>
                 <p className="text-lg text-secondary">
-                  127 West Room, Floor 5
+                  Baliapal, Baleshwar
                   <br />
-                  Abc Enclave 245019
-                  <br />
-                  Downtown District
+                  Odisha 756026
                 </p>
                 <a
                   href="https://maps.google.com"
