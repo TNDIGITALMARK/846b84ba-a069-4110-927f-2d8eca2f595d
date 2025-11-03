@@ -5,22 +5,22 @@ import { UtensilsCrossed, Heart, ChefHat, Users, Calendar, ShoppingBag } from 'l
 export default function HomePage() {
   const signatureDishes = [
     {
-      name: 'Dalma',
-      price: '$12.95',
-      image: '/generated/dalma.png',
-      description: 'Traditional Odia lentil curry with vegetables and aromatic spices',
+      name: 'Chicken Dum Biryani',
+      price: '₹130',
+      image: '/generated/biryani-meal.jpg',
+      description: 'Aromatic basmati rice layered with tender chicken and spices',
     },
     {
-      name: 'Machha Besara',
-      price: '$16.95',
-      image: '/generated/machha-besara.png',
-      description: 'Fish curry in mustard gravy - an Odisha specialty',
+      name: 'Tandoori Chicken',
+      price: '₹180/350',
+      image: '/generated/tandoori-chicken.jpg',
+      description: 'Juicy chicken marinated in yogurt and spices, cooked in tandoor',
     },
     {
-      name: 'Chhena Poda',
-      price: '$8.95',
-      image: '/generated/chhena-poda.png',
-      description: 'Caramelized cottage cheese dessert - pride of Odisha',
+      name: 'Chilli Paneer',
+      price: '₹80/150',
+      image: '/generated/chilli-paneer.jpg',
+      description: 'Indo-Chinese favorite with crispy paneer in spicy sauce',
     },
   ];
 
@@ -40,8 +40,8 @@ export default function HomePage() {
         <div className="absolute inset-0 grid grid-cols-3 gap-0">
           <div className="relative w-full h-full">
             <Image
-              src="/generated/dalma.png"
-              alt="Dalma - Traditional Odia Lentil Curry"
+              src="/generated/biryani-meal.jpg"
+              alt="Chicken Dum Biryani"
               fill
               className="object-cover"
               priority
@@ -49,8 +49,8 @@ export default function HomePage() {
           </div>
           <div className="relative w-full h-full">
             <Image
-              src="/generated/machha-besara.png"
-              alt="Machha Besara - Fish in Mustard Gravy"
+              src="/generated/tandoori-chicken.jpg"
+              alt="Tandoori Chicken"
               fill
               className="object-cover"
               priority
@@ -58,8 +58,8 @@ export default function HomePage() {
           </div>
           <div className="relative w-full h-full">
             <Image
-              src="/generated/chhena-poda.png"
-              alt="Chhena Poda - Traditional Odisha Dessert"
+              src="/generated/chilli-paneer.jpg"
+              alt="Chilli Paneer"
               fill
               className="object-cover"
               priority
@@ -76,37 +76,26 @@ export default function HomePage() {
             TASTE OF ODISHA
           </h1>
           <p className="text-white text-xl md:text-2xl italic text-serif">
-            Authentic Odia Cuisine & Cultural Heritage
+            Family Restaurant
           </p>
         </div>
       </section>
 
       {/* Main Content Container */}
       <div className="bg-white max-w-6xl mx-auto shadow-card my-8">
-        {/* About the Chef Section */}
+        {/* About the Restaurant Section */}
         <section className="section">
-          <div className="flex flex-col md:flex-row gap-8 items-start">
-            <div className="flex-shrink-0">
-              <Image
-                src="/generated/chef-gopinath.png"
-                alt="Chef Gopinath Pramanik"
-                width={120}
-                height={120}
-                className="chef-image"
-              />
-            </div>
-            <div className="flex-1">
-              <h2 className="text-2xl font-semibold mb-4 text-serif">ABOUT OUR CUISINE</h2>
-              <p className="text-base leading-relaxed text-secondary">
-                Taste of Odisha brings you the authentic flavors of Odisha&apos;s rich culinary heritage.
-                Known for its balanced flavors and temple-style cooking, Odia cuisine is a celebration of
-                tradition and taste. Our dishes are prepared using age-old recipes passed down through generations,
-                featuring minimal oil, subtle spices, and the freshest ingredients. From the famous Dalma and
-                Machha Besara to the sweet delicacy Chhena Poda, every dish tells a story of Odisha&apos;s
-                vibrant culture and culinary excellence. Experience the true essence of Odia cooking -
-                simple, wholesome, and incredibly flavorful.
-              </p>
-            </div>
+          <div className="flex flex-col items-center text-center">
+            <h2 className="text-2xl font-semibold mb-4 text-serif">ABOUT OUR RESTAURANT</h2>
+            <p className="text-base leading-relaxed text-secondary max-w-3xl">
+              Taste of Odisha Family Restaurant offers a diverse menu featuring the best of Indian, Chinese,
+              and Tandoori cuisines. From aromatic biryanis and sizzling tandoori delicacies to flavorful
+              Indo-Chinese dishes and traditional Indian curries, we serve authentic flavors that bring families
+              together. Our chefs use fresh ingredients and time-tested recipes to create memorable dining experiences.
+              Whether you&apos;re craving spicy Chilli Chicken, tender Tandoori specialties, or comforting home-style
+              Indian meals, we have something for everyone. Experience quality food, warm hospitality, and great value
+              at Taste of Odisha - your family&apos;s favorite dining destination.
+            </p>
           </div>
         </section>
 
