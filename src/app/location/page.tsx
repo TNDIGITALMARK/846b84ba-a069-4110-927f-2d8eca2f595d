@@ -93,7 +93,7 @@ export default function LocationPage() {
                 </h2>
                 <div className="space-y-2">
                   <p className="text-lg text-secondary">
-                    <strong>Monday - Sunday:</strong> 11:30 AM - 9:30 PM
+                    <strong>Monday - Sunday:</strong> 11:00 AM - 11:00 PM
                   </p>
                   <p className="text-sm text-secondary mt-4">
                     We are open every day to serve you. Last orders are taken 30
