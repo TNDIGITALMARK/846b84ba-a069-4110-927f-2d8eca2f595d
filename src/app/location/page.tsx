@@ -118,7 +118,7 @@ export default function LocationPage() {
                   Complete Odia Thali with Dalma, Rice, and more Monday to Friday, 12 PM - 3 PM
                 </p>
                 <span className="text-[hsl(var(--color-primary))] font-bold text-lg">
-                  $15.95
+                  ₹159
                 </span>
               </div>
 
@@ -127,10 +127,10 @@ export default function LocationPage() {
                   Family Feast
                 </h3>
                 <p className="text-secondary mb-3">
-                  Dalma + Machha Besara + Rice + 2 Sides + Chhena Poda for only $55.95
+                  Dalma + Machha Besara + Rice + 2 Sides + Chhena Poda for only ₹559
                 </p>
                 <span className="text-[hsl(var(--color-primary))] font-bold text-lg">
-                  $55.95
+                  ₹559
                 </span>
               </div>
 

@@ -19,7 +19,7 @@ export default function DealsPage() {
       subtitle: 'All Day, Every Day',
       description:
         'Feed the whole family! Includes 2 appetizers, 3 main dishes, 2 naan breads, and a dessert.',
-      discount: '$59.95',
+      discount: '₹599',
       color: 'hsl(var(--color-secondary))',
       terms: 'Serves 4-5 people. Main dishes chosen by chef.',
     },
@@ -38,7 +38,7 @@ export default function DealsPage() {
       title: 'First-Time Customer',
       subtitle: 'One-Time Offer',
       description:
-        'Welcome to Roots! Enjoy 15% off your entire order on your first visit with us.',
+        'Welcome to Taste of Odisha! Enjoy 15% off your entire order on your first visit with us.',
       discount: '15% OFF',
       color: 'hsl(var(--color-primary))',
       terms: 'Must mention offer when ordering. Valid ID required.',
