@@ -12,7 +12,7 @@ export default function LocationPage() {
           </h1>
           <p className="text-xl text-secondary max-w-2xl mx-auto">
             Find us in the heart of the city, ready to serve you authentic
-            flavors
+            Odia cuisine
           </p>
         </div>
 
@@ -70,10 +70,10 @@ export default function LocationPage() {
                   <p className="text-lg text-secondary">
                     <strong>Email:</strong>{' '}
                     <a
-                      href="mailto:info@rootsrestaurant.com"
+                      href="mailto:info@tasteofodiaha.com"
                       className="text-[hsl(var(--color-primary))] hover:underline"
                     >
-                      info@rootsrestaurant.com
+                      info@tasteofodiaha.com
                     </a>
                   </p>
                 </div>
@@ -93,7 +93,7 @@ export default function LocationPage() {
                 </h2>
                 <div className="space-y-2">
                   <p className="text-lg text-secondary">
-                    <strong>Monday - Sunday:</strong> 11:00 AM - 10:00 PM
+                    <strong>Monday - Sunday:</strong> 11:30 AM - 9:30 PM
                   </p>
                   <p className="text-sm text-secondary mt-4">
                     We are open every day to serve you. Last orders are taken 30
@@ -112,34 +112,34 @@ export default function LocationPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-[hsl(var(--background))] p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2 text-serif">
-                  Lunch Special
+                  Lunch Thali Special
                 </h3>
                 <p className="text-secondary mb-3">
-                  Get 20% off on all curries Monday to Friday, 11 AM - 3 PM
+                  Complete Odia Thali with Dalma, Rice, and more Monday to Friday, 12 PM - 3 PM
                 </p>
                 <span className="text-[hsl(var(--color-primary))] font-bold text-lg">
-                  20% OFF
+                  $15.95
                 </span>
               </div>
 
               <div className="bg-[hsl(var(--background))] p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2 text-serif">
-                  Family Combo
+                  Family Feast
                 </h3>
                 <p className="text-secondary mb-3">
-                  2 Appetizers + 3 Main Dishes + 2 Naan + Dessert for only $59.95
+                  Dalma + Machha Besara + Rice + 2 Sides + Chhena Poda for only $55.95
                 </p>
                 <span className="text-[hsl(var(--color-primary))] font-bold text-lg">
-                  $59.95
+                  $55.95
                 </span>
               </div>
 
               <div className="bg-[hsl(var(--background))] p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2 text-serif">
-                  Weekend Brunch
+                  Weekend Special
                 </h3>
                 <p className="text-secondary mb-3">
-                  Special brunch menu on weekends, 11 AM - 2 PM
+                  Special Pakhala Bhata with traditional sides on weekends
                 </p>
                 <span className="text-[hsl(var(--color-primary))] font-bold text-lg">
                   NEW
@@ -164,7 +164,7 @@ export default function LocationPage() {
         {/* CTA Section */}
         <div className="text-center mt-12">
           <h3 className="text-2xl font-semibold mb-4 text-serif">
-            Ready to Experience Roots?
+            Ready to Experience Taste of Odisha?
           </h3>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/reservations" className="btn-primary">

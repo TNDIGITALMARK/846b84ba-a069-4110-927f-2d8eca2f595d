@@ -4,149 +4,198 @@ import Link from 'next/link';
 export default function MenuPage() {
   const menuCategories = [
     {
-      name: 'Appetizers',
+      name: 'Traditional Odia Specialties',
       items: [
         {
-          name: 'Spring Rolls',
-          price: '$8.95',
-          description: 'Crispy vegetable spring rolls with sweet chili sauce',
-          spiceLevel: 1,
-        },
-        {
-          name: 'Chicken Satay',
+          name: 'Dalma',
           price: '$12.95',
-          description: 'Grilled chicken skewers with peanut sauce',
-          spiceLevel: 2,
-        },
-        {
-          name: 'Paneer Tikka',
-          price: '$11.95',
-          description: 'Marinated cottage cheese grilled in tandoor',
-          spiceLevel: 2,
+          description: 'Traditional Odia lentil curry with vegetables, raw papaya, and aromatic spices',
+          image: '/generated/dalma.png',
+          spiceLevel: 1,
+          featured: true,
           vegetarian: true,
         },
-      ],
-    },
-    {
-      name: 'Signature Dishes',
-      items: [
         {
-          name: 'Chilly Chicken',
+          name: 'Machha Besara',
           price: '$16.95',
-          description: 'Tender chicken pieces in spicy garlic sauce',
-          image: '/generated/chilly-chicken.png',
-          spiceLevel: 3,
+          description: 'Fresh fish cooked in mustard gravy - an Odisha specialty',
+          image: '/generated/machha-besara.png',
+          spiceLevel: 2,
           featured: true,
         },
         {
-          name: 'Chilly Garlic Noodles',
-          price: '$14.95',
-          description: 'Hand-pulled noodles with fresh garlic and chilies',
-          image: '/generated/chilly-garlic-noodles.png',
-          spiceLevel: 3,
-          featured: true,
-        },
-        {
-          name: 'Thai Red Curry',
+          name: 'Chingudi Bhaja',
           price: '$18.95',
-          description: 'Coconut-based curry with traditional Thai spices',
-          image: '/generated/thai-red-curry.png',
-          spiceLevel: 3,
+          description: 'Crispy fried prawns with traditional Odia spices',
+          spiceLevel: 2,
+        },
+        {
+          name: 'Santula',
+          price: '$11.95',
+          description: 'Mixed vegetable curry with minimal spices - temple style cooking',
+          spiceLevel: 1,
+          vegetarian: true,
+        },
+      ],
+    },
+    {
+      name: 'Rice & Lentils',
+      items: [
+        {
+          name: 'Pakhala Bhata',
+          price: '$9.95',
+          description: 'Traditional fermented rice served with accompaniments',
+          spiceLevel: 0,
+          vegetarian: true,
+        },
+        {
+          name: 'Khechedi',
+          price: '$10.95',
+          description: 'Rice and lentil porridge with ghee and spices',
+          spiceLevel: 1,
+          vegetarian: true,
+        },
+        {
+          name: 'Mansa Tarkari',
+          price: '$15.95',
+          description: 'Mutton curry with traditional Odia spices',
+          spiceLevel: 2,
+        },
+        {
+          name: 'Dahi Baigana',
+          price: '$11.95',
+          description: 'Fried eggplant in yogurt curry',
+          spiceLevel: 1,
+          vegetarian: true,
+        },
+      ],
+    },
+    {
+      name: 'Bhaja & Tarkari (Sides)',
+      items: [
+        {
+          name: 'Aloo Potala Rasa',
+          price: '$10.95',
+          description: 'Potato and pointed gourd curry in light gravy',
+          spiceLevel: 1,
+          vegetarian: true,
+        },
+        {
+          name: 'Badi Chura',
+          price: '$9.95',
+          description: 'Crushed sun-dried lentil dumplings with onions and spices',
+          spiceLevel: 2,
+          vegetarian: true,
+        },
+        {
+          name: 'Saga Bhaja',
+          price: '$8.95',
+          description: 'Sautéed leafy greens with garlic and mustard',
+          spiceLevel: 1,
+          vegetarian: true,
+        },
+        {
+          name: 'Macha Ghanta',
+          price: '$14.95',
+          description: 'Fish head curry with vegetables - a traditional favorite',
+          spiceLevel: 2,
+        },
+      ],
+    },
+    {
+      name: 'Chhena Delicacies',
+      items: [
+        {
+          name: 'Chhena Poda',
+          price: '$8.95',
+          description: 'Caramelized cottage cheese dessert - pride of Odisha',
+          image: '/generated/chhena-poda.png',
+          spiceLevel: 0,
           featured: true,
         },
-      ],
-    },
-    {
-      name: 'Curries',
-      items: [
         {
-          name: 'Butter Chicken',
-          price: '$17.95',
-          description: 'Creamy tomato-based curry with tender chicken',
-          spiceLevel: 2,
-        },
-        {
-          name: 'Lamb Rogan Josh',
-          price: '$19.95',
-          description: 'Aromatic lamb curry with traditional spices',
-          spiceLevel: 3,
-        },
-        {
-          name: 'Paneer Makhani',
-          price: '$15.95',
-          description: 'Cottage cheese in rich tomato cream sauce',
-          spiceLevel: 1,
-          vegetarian: true,
-        },
-      ],
-    },
-    {
-      name: 'Tandoori Specialties',
-      items: [
-        {
-          name: 'Tandoori Chicken',
-          price: '$16.95',
-          description: 'Half chicken marinated in yogurt and spices',
-          spiceLevel: 2,
-        },
-        {
-          name: 'Seekh Kebab',
-          price: '$17.95',
-          description: 'Minced lamb skewers grilled in tandoor',
-          spiceLevel: 2,
-        },
-        {
-          name: 'Tandoori Prawns',
-          price: '$21.95',
-          description: 'Jumbo prawns marinated and grilled',
-          spiceLevel: 2,
-        },
-      ],
-    },
-    {
-      name: 'Rice & Noodles',
-      items: [
-        {
-          name: 'Vegetable Fried Rice',
-          price: '$12.95',
-          description: 'Wok-tossed rice with fresh vegetables',
-          spiceLevel: 1,
-          vegetarian: true,
-        },
-        {
-          name: 'Chicken Biryani',
-          price: '$16.95',
-          description: 'Fragrant basmati rice with spiced chicken',
-          spiceLevel: 2,
-        },
-        {
-          name: 'Hakka Noodles',
-          price: '$13.95',
-          description: 'Indo-Chinese style stir-fried noodles',
-          spiceLevel: 2,
-        },
-      ],
-    },
-    {
-      name: 'Desserts',
-      items: [
-        {
-          name: 'Gulab Jamun',
+          name: 'Rasagola',
           price: '$6.95',
-          description: 'Soft milk dumplings in rose-cardamom syrup',
+          description: 'Spongy cottage cheese balls in sugar syrup',
           spiceLevel: 0,
         },
         {
-          name: 'Mango Kulfi',
+          name: 'Rasabali',
           price: '$7.95',
-          description: 'Traditional Indian ice cream with fresh mango',
+          description: 'Fried cottage cheese patties soaked in sweetened condensed milk',
           spiceLevel: 0,
         },
         {
-          name: 'Ras Malai',
+          name: 'Khira Sagara',
           price: '$7.95',
-          description: 'Cottage cheese patties in sweetened milk',
+          description: 'Cottage cheese balls in sweetened milk - temple offering',
           spiceLevel: 0,
+        },
+      ],
+    },
+    {
+      name: 'Sweet Delights',
+      items: [
+        {
+          name: 'Arisa Pitha',
+          price: '$6.95',
+          description: 'Traditional rice flour pancake with jaggery',
+          spiceLevel: 0,
+          vegetarian: true,
+        },
+        {
+          name: 'Manda Pitha',
+          price: '$7.95',
+          description: 'Steamed rice dumplings with coconut and jaggery filling',
+          spiceLevel: 0,
+          vegetarian: true,
+        },
+        {
+          name: 'Khaja',
+          price: '$6.95',
+          description: 'Crispy layered sweet pastry',
+          spiceLevel: 0,
+          vegetarian: true,
+        },
+        {
+          name: 'Kakara Pitha',
+          price: '$7.95',
+          description: 'Deep-fried sweet dumplings with coconut filling',
+          spiceLevel: 0,
+          vegetarian: true,
+        },
+      ],
+    },
+    {
+      name: 'Beverages',
+      items: [
+        {
+          name: 'Lassi',
+          price: '$4.95',
+          description: 'Traditional yogurt drink - sweet or salted',
+          spiceLevel: 0,
+          vegetarian: true,
+        },
+        {
+          name: 'Chacha',
+          price: '$3.95',
+          description: 'Buttermilk with roasted cumin and curry leaves',
+          spiceLevel: 0,
+          vegetarian: true,
+        },
+        {
+          name: 'Pana',
+          price: '$4.95',
+          description: 'Traditional drink made with raw mango, jaggery, and spices',
+          spiceLevel: 0,
+          vegetarian: true,
+        },
+        {
+          name: 'Masala Chai',
+          price: '$3.95',
+          description: 'Spiced tea with cardamom and ginger',
+          spiceLevel: 1,
+          vegetarian: true,
         },
       ],
     },
@@ -170,8 +219,8 @@ export default function MenuPage() {
             Our Menu
           </h1>
           <p className="text-xl text-secondary max-w-2xl mx-auto">
-            Discover our authentic Indian and Indo-Chinese cuisine, crafted with
-            tradition and passion
+            Discover authentic Odia cuisine, crafted with traditional recipes
+            and the finest ingredients from Odisha&apos;s rich culinary heritage
           </p>
         </div>
 

@@ -10,8 +10,8 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
 export const metadata: Metadata = {
-  title: "Roots - Traditional Indian & Indo-Chinese Cuisine",
-  description: "Rooted in tradition, rich in flavor. Experience authentic Indian and Indo-Chinese cuisine with Chef Gopinath Pramanik.",
+  title: "Taste of Odisha - Authentic Odia Cuisine",
+  description: "Experience authentic Odia cuisine and cultural heritage. Traditional dishes from Odisha prepared with love and expertise.",
 };
 
 export default function RootLayout({

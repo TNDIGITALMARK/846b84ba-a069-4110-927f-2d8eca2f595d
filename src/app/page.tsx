@@ -5,22 +5,22 @@ import { UtensilsCrossed, Heart, ChefHat, Users, Calendar, ShoppingBag } from 'l
 export default function HomePage() {
   const signatureDishes = [
     {
-      name: 'Chilly Chicken',
+      name: 'Dalma',
+      price: '$12.95',
+      image: '/generated/dalma.png',
+      description: 'Traditional Odia lentil curry with vegetables and aromatic spices',
+    },
+    {
+      name: 'Machha Besara',
       price: '$16.95',
-      image: '/generated/chilly-chicken.png',
-      description: 'Tender chicken pieces in spicy garlic sauce',
+      image: '/generated/machha-besara.png',
+      description: 'Fish curry in mustard gravy - an Odisha specialty',
     },
     {
-      name: 'Chilly Garlic Noodles',
-      price: '$14.95',
-      image: '/generated/chilly-garlic-noodles.png',
-      description: 'Hand-pulled noodles with fresh garlic and chilies',
-    },
-    {
-      name: 'Thai Red Curry',
-      price: '$18.95',
-      image: '/generated/thai-red-curry.png',
-      description: 'Coconut-based curry with traditional Thai spices',
+      name: 'Chhena Poda',
+      price: '$8.95',
+      image: '/generated/chhena-poda.png',
+      description: 'Caramelized cottage cheese dessert - pride of Odisha',
     },
   ];
 
@@ -40,8 +40,8 @@ export default function HomePage() {
         <div className="absolute inset-0 grid grid-cols-3 gap-0">
           <div className="relative w-full h-full">
             <Image
-              src="/generated/chilly-chicken.png"
-              alt="Chilly Chicken"
+              src="/generated/dalma.png"
+              alt="Dalma - Traditional Odia Lentil Curry"
               fill
               className="object-cover"
               priority
@@ -49,8 +49,8 @@ export default function HomePage() {
           </div>
           <div className="relative w-full h-full">
             <Image
-              src="/generated/chilly-garlic-noodles.png"
-              alt="Chilly Garlic Noodles"
+              src="/generated/machha-besara.png"
+              alt="Machha Besara - Fish in Mustard Gravy"
               fill
               className="object-cover"
               priority
@@ -58,8 +58,8 @@ export default function HomePage() {
           </div>
           <div className="relative w-full h-full">
             <Image
-              src="/generated/thai-red-curry.png"
-              alt="Thai Red Curry"
+              src="/generated/chhena-poda.png"
+              alt="Chhena Poda - Traditional Odisha Dessert"
               fill
               className="object-cover"
               priority
@@ -73,10 +73,10 @@ export default function HomePage() {
         {/* Hero Content */}
         <div className="relative h-full flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-white text-5xl md:text-6xl font-bold mb-4 text-serif">
-            ROOTS
+            TASTE OF ODISHA
           </h1>
           <p className="text-white text-xl md:text-2xl italic text-serif">
-            Rooted in tradition, rich in flavor
+            Authentic Odia Cuisine & Cultural Heritage
           </p>
         </div>
       </section>
@@ -96,13 +96,15 @@ export default function HomePage() {
               />
             </div>
             <div className="flex-1">
-              <h2 className="text-2xl font-semibold mb-4 text-serif">ABOUT THE CHEF</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-serif">ABOUT OUR CUISINE</h2>
               <p className="text-base leading-relaxed text-secondary">
-                Chef Gopinath Pramanik is a culinary artist with international culinary skills, offering the skills of his
-                life&apos;s kitchen. Mastering both local and heritage flavours to be served in traditional roots.
-                His passion for authentic flavors shines in every dish. With 5+ years of experience at Berco&apos;s
-                Chinese & Thai Cuisine and 3+ years of international experience in New Zealand, Chef Gopinath brings
-                a wealth of expertise to create dishes rooted in tradition and rich in flavor.
+                Taste of Odisha brings you the authentic flavors of Odisha&apos;s rich culinary heritage.
+                Known for its balanced flavors and temple-style cooking, Odia cuisine is a celebration of
+                tradition and taste. Our dishes are prepared using age-old recipes passed down through generations,
+                featuring minimal oil, subtle spices, and the freshest ingredients. From the famous Dalma and
+                Machha Besara to the sweet delicacy Chhena Poda, every dish tells a story of Odisha&apos;s
+                vibrant culture and culinary excellence. Experience the true essence of Odia cooking -
+                simple, wholesome, and incredibly flavorful.
               </p>
             </div>
           </div>
@@ -153,10 +155,10 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Experience Roots Section */}
+        {/* Experience Section */}
         <section className="section">
           <h2 className="text-2xl font-semibold text-center mb-10 text-serif">
-            EXPERIENCE ROOTS
+            EXPERIENCE TASTE OF ODISHA
           </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-6 gap-8 max-w-4xl mx-auto">

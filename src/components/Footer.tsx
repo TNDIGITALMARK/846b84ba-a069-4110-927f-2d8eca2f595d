@@ -12,10 +12,10 @@ export default function Footer() {
               <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
                 <Wheat className="w-6 h-6 text-white" strokeWidth={2} />
               </div>
-              <span className="text-2xl font-bold text-serif">ROOTS</span>
+              <span className="text-2xl font-bold text-serif">TASTE OF ODISHA</span>
             </div>
             <p className="text-sm text-white/80 italic">
-              Rooted in tradition, rich in flavor
+              Authentic Odia Cuisine & Cultural Heritage
             </p>
           </div>
 
@@ -38,13 +38,13 @@ export default function Footer() {
 
             <div className="flex items-center gap-3">
               <Mail className="w-5 h-5 flex-shrink-0" />
-              <p className="text-sm">info@rootsrestaurant.com</p>
+              <p className="text-sm">info@tasteofodiaha.com</p>
             </div>
 
             <p className="text-sm mt-2">
               <strong>Hours:</strong> Monday to Sunday
               <br />
-              11:00 AM - 10:00 PM
+              11:30 AM - 9:30 PM
             </p>
           </div>
 
@@ -72,7 +72,7 @@ export default function Footer() {
               </a>
             </div>
             <div className="text-sm text-white/80 mt-4">
-              <p>&copy; 2025 Roots Restaurant</p>
+              <p>&copy; 2025 Taste of Odisha</p>
               <p>All rights reserved</p>
             </div>
           </div>

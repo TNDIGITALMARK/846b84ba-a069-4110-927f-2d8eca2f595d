@@ -28,7 +28,7 @@ export default function Header() {
                 <Wheat className="w-6 h-6 text-white" strokeWidth={2} />
               </div>
               <span className="text-2xl font-bold text-serif text-[hsl(var(--text-primary))]">
-                ROOTS
+                TASTE OF ODISHA
               </span>
             </Link>
 
